@@ -5,4 +5,7 @@ public interface PokemonState {
     String getName();
     void attack();
     PokemonState instantiateNextForm();
+    void giveBonus(int bonus);
+    int getBonus();
+    
 }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Tuoppi/Documents/NetBeansProjects/Decorator/src/File.java</file>
+            <file>file:/C:/Users/Tuoppi/Documents/NetBeansProjects/Decorator/src/FileReader.java</file>
+            <file>file:/C:/Users/Tuoppi/Documents/NetBeansProjects/Decorator/src/FileLineReader.java</file>
+            <file>file:/C:/Users/Tuoppi/Documents/NetBeansProjects/Decorator/src/FileReaderDecorator.java</file>
+            <file>file:/C:/Users/Tuoppi/Documents/NetBeansProjects/Decorator/src/Test.java</file>
+            <file>file:/C:/Users/Tuoppi/Documents/NetBeansProjects/Decorator/src/Base64Decoder.java</file>
+            <file>file:/C:/Users/Tuoppi/Documents/NetBeansProjects/Decorator/src/FileLineWriter.java</file>
+            <file>file:/C:/Users/Tuoppi/Documents/NetBeansProjects/Decorator/src/FileWriterDecorator.java</file>
+            <file>file:/C:/Users/Tuoppi/Documents/NetBeansProjects/Decorator/src/Base64Encoder.java</file>
+            <file>file:/C:/Users/Tuoppi/Documents/NetBeansProjects/Decorator/src/FileWriter.java</file>
+        </group>
+    </open-files>
+</project-private>

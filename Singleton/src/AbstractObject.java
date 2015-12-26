@@ -1,0 +1,3 @@
+interface AbstractObject {
+    void print();
+}

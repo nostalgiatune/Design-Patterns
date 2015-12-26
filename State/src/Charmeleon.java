@@ -3,6 +3,7 @@ public class Charmeleon implements PokemonState {
     
     final String name = "Charmeleon";
     private static PokemonState singleton;
+    private int bonus = 0;
     
     private Charmeleon() {}
     public static PokemonState instantiate() {
@@ -33,6 +34,16 @@ public class Charmeleon implements PokemonState {
         PokemonState nextForm = Charizard.instantiate();
         System.out.println("Evolving from " + name + " to " + nextForm.getName());
         return nextForm;
+    }
+
+    @Override
+    public void giveBonus(int bonus) {
+        this.bonus += bonus;
+    }
+
+    @Override
+    public int getBonus() {
+        return bonus;
     }
     
 }

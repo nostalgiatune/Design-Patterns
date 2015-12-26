@@ -3,6 +3,7 @@ public class Charizard implements PokemonState {
     
     final String name = "Charizard";
     private static PokemonState singleton;
+    private int bonus = 0;
     
     private Charizard() {}
     public static PokemonState instantiate() {
@@ -32,6 +33,16 @@ public class Charizard implements PokemonState {
     public PokemonState instantiateNextForm() {
         System.out.println("Charizard can't evolve any further");
         return Charizard.instantiate();
+    }
+
+    @Override
+    public void giveBonus(int bonus) {
+        this.bonus += bonus;
+    }
+    
+    @Override
+    public int getBonus() {
+        return bonus;
     }
     
 }
