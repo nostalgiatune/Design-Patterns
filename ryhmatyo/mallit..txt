@@ -1,0 +1,18 @@
+factory method
+abstract factory
+observer
+singleton
+decorator
+state
+strategy
+template method
+iterator
+command
+composite
+
+hahmot: state, strategy, decorator, observer, command, composite, template method
+mappi: singleton tehtaasta
+inventoori: iterator
+
+game loop
+
